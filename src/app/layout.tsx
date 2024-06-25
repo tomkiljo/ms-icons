@@ -5,9 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Microsoft Icon Colletions",
+  title: "Microsoft Icon Collections",
   description:
-    "Browse through icon collections for Azure, Power Platform and Dynamics 365",
+    "Browse through icon collections for Azure, Power Platform, Dynamics 365, and Microsoft 365",
 };
 
 export default function RootLayout({
