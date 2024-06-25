@@ -10,3 +10,5 @@ The following collections are presented:
 Regarding icon usage refer to the collections websites for terms, do's, and dont's.
 
 **Disclaimer**: The icons displayed on this website are the property of Microsoft Corporation. All copyrights and intellectual property rights for the icons remain with Microsoft Corporation.
+
+View the icons here: https://tomkiljo.github.io/ms-icons/

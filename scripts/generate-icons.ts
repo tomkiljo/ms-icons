@@ -40,7 +40,7 @@ const runAsync = async () => {
       .replaceAll(/[-_]/g, " ")
       .replaceAll(/((?<![().,+-_])[A-Z0-9]+)/g, " $1")
       .trim();
-    const iconUrl = "/" + path.relative(publicRootPath, iconFile);
+    const iconUrl = path.relative(publicRootPath, iconFile);
     return {
       collection: "Azure Icons",
       category: iconCategory,
@@ -74,7 +74,7 @@ const runAsync = async () => {
       .replaceAll(/[-_]/g, " ")
       .replaceAll(/((?<![().,+-_])[A-Z0-9]+)/g, " $1")
       .trim();
-    const iconUrl = "/" + path.relative(publicRootPath, iconFile);
+    const iconUrl = path.relative(publicRootPath, iconFile);
     return {
       collection: "Power Platform Icons",
       category: "General",
@@ -113,7 +113,7 @@ const runAsync = async () => {
       .replaceAll(/[-_]/g, " ")
       .replaceAll(/((?<![().,+-_])[A-Z0-9]+)/g, " $1")
       .trim();
-    const iconUrl = "/" + path.relative(publicRootPath, iconFile);
+    const iconUrl = path.relative(publicRootPath, iconFile);
     return {
       collection: "Dynamics 365 Icons",
       category: iconCategory,
@@ -160,7 +160,7 @@ const runAsync = async () => {
       .replaceAll(/[-_]/g, " ")
       .replaceAll(/((?<![().,+-_])[A-Z0-9]+)/g, " $1")
       .trim();
-    const iconUrl = "/" + path.relative(publicRootPath, iconFile);
+    const iconUrl = path.relative(publicRootPath, iconFile);
     return {
       collection: "Microsoft 365 Icons",
       category: iconCategory,
