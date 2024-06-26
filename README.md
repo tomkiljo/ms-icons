@@ -1,6 +1,6 @@
 The purpose of this repository is to showcase Microsoft architecture icon collections in a user-friendly manner.
 
-The following collections are presented:
+The following official collections are presented:
 
 - [Azure architecture icons](https://learn.microsoft.com/en-us/azure/architecture/icons) - February 2024
 - [Microsoft Entra architecture icons](https://learn.microsoft.com/en-us/entra/architecture/architecture-icons) - October 2023
@@ -9,6 +9,10 @@ The following collections are presented:
 - [Microsoft 365 architecture templates and icons](https://learn.microsoft.com/en-us/microsoft-365/solutions/architecture-icons-templates) - January 2024
 
 Regarding icon usage refer to the collections websites for terms, do's, and dont's.
+
+Additionally the following web scraped collections are pesented:
+
+- [Azure UX Patterns icons](https://azure.microsoft.com/en-gb/patterns/styles/glyphs-icons/)
 
 **Disclaimer**: The icons displayed on this website are the property of Microsoft Corporation. All copyrights and intellectual property rights for the icons remain with Microsoft Corporation.
 
