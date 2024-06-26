@@ -60,6 +60,41 @@ const runAsync = async () => {
     ],
   });
 
+  /// Microsoft Entra architecture icons
+
+  const entraRootPath = path.join(
+    iconsRootPath,
+    "Microsoft_Entra_architecture_icons"
+  );
+
+  const entraIconFiles = findSvgs(entraRootPath);
+  const entraIcons = entraIconFiles.map((iconFile) => {
+    const iconCategory = "General";
+    const iconName = path
+      .basename(iconFile, ".svg")
+      .replace(/\s*BW icon\s*/i, "")
+      .replace(/\s*color icon\s*/i, "")
+      .trim();
+    const iconUrl = path.relative(publicRootPath, iconFile);
+    return {
+      collection: "Microsoft Entra Icons",
+      category: iconCategory,
+      name: iconName,
+      url: iconUrl,
+    };
+  });
+
+  collections.push({
+    name: "Microsoft Entra Icons",
+    icons: entraIcons,
+    documentation: [
+      {
+        name: "Microsoft Entra architecture icons",
+        url: "https://learn.microsoft.com/en-us/entra/architecture/architecture-icons",
+      },
+    ],
+  });
+
   /// Microsoft Power Platform icons
 
   const powerPlatformRootPath = path.join(
