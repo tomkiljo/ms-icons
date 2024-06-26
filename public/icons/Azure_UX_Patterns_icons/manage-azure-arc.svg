@@ -1,0 +1,32 @@
+<svg data-slug-id="manage-azure-arc" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M19.1696 13.993L10.5872 18.9835L2 13.9906L10.5872 9L19.1696 13.993Z" fill="#5EA0EF"/>
+<path d="M19.1708 36.4422L10.5859 31.4854V41.4328L19.1708 36.4422Z" fill="#005BA1"/>
+<path d="M10.5872 18.9836L10.5848 18.9812V18.9836L2 13.9906V36.4589L10.5848 41.4495L19.1696 36.4589V36.4421L10.5848 41.4326V31.4852L19.1696 36.4421V13.993L10.5872 18.9836Z" fill="#0078D4"/>
+<path d="M28.1641 13.993L36.7465 18.9835L45.3337 13.9906L36.7465 9L28.1641 13.993Z" fill="#9CEBFF"/>
+<path d="M28.1641 36.4422L36.7489 31.4854V41.4328L28.1641 36.4422Z" fill="#32BEDD"/>
+<path d="M36.7465 18.9668H36.7489V31.4684L28.1641 36.4421V13.9762L36.7465 18.9668Z" fill="url(#manage-azure-arc_paint0_linear)"/>
+<path d="M28.1641 13.993L36.7465 18.9835L45.3337 13.9906L36.7465 9L28.1641 13.993Z" fill="#9CEBFF"/>
+<path d="M36.7465 18.9836L28.1641 13.993V36.4421L36.7489 31.4852V41.4326L28.1641 36.4421V36.4589L36.7489 41.4495L45.3337 36.4589V13.9906L36.7465 18.9836Z" fill="#50E6FF"/>
+<path d="M28.1641 36.4422L36.7489 31.4854V41.4328L28.1641 36.4422Z" fill="#32BEDD"/>
+<path d="M36.7465 18.9668H36.7489V31.4684L28.1641 36.4421V13.9762L36.7465 18.9668Z" fill="url(#manage-azure-arc_paint1_linear)"/>
+<path d="M10.5883 18.9811H10.5859V31.4827L19.1708 36.4588V13.9929L10.5883 18.9811Z" fill="url(#manage-azure-arc_paint2_linear)"/>
+<path d="M36.7216 27.6117C35.2194 31.3576 29.3405 33.8324 23.8468 33.8324H23.6518H23.4592C17.9655 33.8324 12.0866 31.3576 10.5844 27.6117C10.5844 27.6117 10.5242 23.8537 10.5844 23.4878C11.6773 27.6694 17.407 30.763 23.3268 30.763H23.6518H23.9792C29.8894 30.763 35.6286 27.6694 36.7216 23.4878C36.7818 23.8537 36.7216 27.6117 36.7216 27.6117ZM34.2588 17.5391C31.351 19.8846 27.7147 21.1398 23.9792 21.0876H23.6518H23.3268C19.595 21.1402 15.9619 19.8886 13.0544 17.5487L10.9936 18.7524C12.9605 22.0337 18.3699 24.1546 23.4592 24.1546H23.8468C28.9384 24.1546 34.3575 22.0289 36.3195 18.7355L34.2588 17.5391Z" fill="url(#manage-azure-arc_paint3_linear)"/>
+<defs>
+<linearGradient id="manage-azure-arc_paint0_linear" x1="36.7489" y1="25.2092" x2="28.1641" y2="25.2092" gradientUnits="userSpaceOnUse">
+<stop stop-color="#32BEDD"/>
+<stop offset="0.998" stop-color="#9CEBFF" stop-opacity="0.5"/>
+</linearGradient>
+<linearGradient id="manage-azure-arc_paint1_linear" x1="36.7489" y1="25.2092" x2="28.1641" y2="25.2092" gradientUnits="userSpaceOnUse">
+<stop stop-color="#32BEDD"/>
+<stop offset="0.998" stop-color="#9CEBFF" stop-opacity="0.5"/>
+</linearGradient>
+<linearGradient id="manage-azure-arc_paint2_linear" x1="10.5883" y1="25.2259" x2="19.1732" y2="25.2259" gradientUnits="userSpaceOnUse">
+<stop stop-color="#005BA1"/>
+<stop offset="0.998" stop-color="#005BA1" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="manage-azure-arc_paint3_linear" x1="10.5579" y1="25.6857" x2="36.7481" y2="25.6857" gradientUnits="userSpaceOnUse">
+<stop stop-color="#005BA1"/>
+<stop offset="0.974" stop-color="#32BEDD"/>
+</linearGradient>
+</defs>
+</svg>

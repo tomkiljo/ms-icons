@@ -1,0 +1,50 @@
+<svg data-slug-id="instagram" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+<rect width="36" height="36" rx="2" fill="url(#instagram_paint0_linear)"/>
+<rect width="36" height="36" rx="2" fill="url(#instagram_paint1_radial)"/>
+<path filter="url(#instagram_filter0_d)" fill-rule="evenodd" clip-rule="evenodd" d="M4.81641 12.0117C4.81641 8.07669 8.00638 4.88672 11.9414 4.88672H24.0586C27.9936 4.88672 31.1836 8.07669 31.1836 12.0117V23.9883C31.1836 27.9233 27.9936 31.1133 24.0586 31.1133H11.9414C8.00638 31.1133 4.81641 27.9233 4.81641 23.9883V12.0117ZM11.9414 7.13672C9.24902 7.13672 7.06641 9.31933 7.06641 12.0117V23.9883C7.06641 26.6807 9.24902 28.8633 11.9414 28.8633H24.0586C26.751 28.8633 28.9336 26.6807 28.9336 23.9883V12.0117C28.9336 9.31933 26.751 7.13672 24.0586 7.13672H11.9414Z" fill="white"/>
+<path filter="url(#instagram_filter1_d)" fill-rule="evenodd" clip-rule="evenodd" d="M11.1445 18.1055C11.1445 14.2999 14.2296 11.2148 18.0352 11.2148C21.8407 11.2148 24.9258 14.2999 24.9258 18.1055C24.9258 21.9111 21.8407 24.9961 18.0352 24.9961C14.2296 24.9961 11.1445 21.9111 11.1445 18.1055ZM18.0352 13.4648C15.4722 13.4648 13.3945 15.5425 13.3945 18.1055C13.3945 20.6684 15.4722 22.7461 18.0352 22.7461C20.5981 22.7461 22.6758 20.6684 22.6758 18.1055C22.6758 15.5425 20.5981 13.4648 18.0352 13.4648Z" fill="white"/>
+<path filter="url(#instagram_filter2_d)" fill-rule="evenodd" clip-rule="evenodd" d="M25.0804 12.225C25.8053 12.225 26.3929 11.6373 26.3929 10.9125C26.3929 10.1876 25.8053 9.59998 25.0804 9.59998C24.3556 9.59998 23.7679 10.1876 23.7679 10.9125C23.7679 11.6373 24.3556 12.225 25.0804 12.225Z" fill="white"/>
+<defs>
+<filter id="instagram_filter0_d" x="2.81641" y="2.88672" width="30.3672" height="30.2266" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.130633 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="instagram_filter1_d" x="9.14453" y="9.21484" width="17.7812" height="17.7812" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.130633 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="instagram_filter2_d" x="21.7679" y="7.59998" width="6.625" height="6.625" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.130633 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="instagram_paint0_linear" x1="-0.702767" y1="3.1787" x2="9.26966" y2="46.1269" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4E60D3"/>
+<stop offset="0.148736" stop-color="#913BAF"/>
+<stop offset="0.315836" stop-color="#D52D88"/>
+<stop offset="0.493765" stop-color="#D72E85"/>
+<stop offset="0.81651" stop-color="#E6366D"/>
+<stop offset="1" stop-color="#F26D4F"/>
+</linearGradient>
+<radialGradient id="instagram_paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(9.29055 30.0872) rotate(145.679) scale(28.1172 29.0137)">
+<stop stop-color="#FED980"/>
+<stop offset="0.372276" stop-color="#FCAE49"/>
+<stop offset="0.555546" stop-color="#F06745"/>
+<stop offset="1" stop-color="#E83D5C" stop-opacity="0.01"/>
+</radialGradient>
+</defs>
+</svg>

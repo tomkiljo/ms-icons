@@ -1,0 +1,16 @@
+<svg data-slug-id="modern-application-development" viewBox="0 0 49 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.85527 6.47888L7.85527 35.6912L46.001 35.6912L46.001 6.47888L7.85527 6.47888Z" fill="#50E6FF"/>
+<path d="M2.49931 12.3087L2.49931 41.521L40.645 41.521L40.645 12.3087L2.49931 12.3087Z" fill="url(#modern-application-development_paint0_linear)"/>
+<path d="M23.5473 25.501H19.5959V29.4523H23.5473V25.501Z" fill="white"/>
+<path d="M27.4986 21.5905L26.1055 22.9835L30.6167 27.4947L26.0535 32.058L27.4465 33.451L33.4029 27.4947L27.4986 21.5905Z" fill="#50E6FF"/>
+<path d="M15.5146 33.4506L16.9142 32.0575L12.403 27.5463L16.9663 22.983L15.5732 21.59L9.61035 27.5463L15.5146 33.4506Z" fill="#50E6FF"/>
+<defs>
+<linearGradient id="modern-application-development_paint0_linear" x1="21.5721" y1="43.7579" x2="11.801" y2="8.70384" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0078D4"/>
+<stop offset="0.16" stop-color="#1380DA"/>
+<stop offset="0.53" stop-color="#3C91E5"/>
+<stop offset="0.82" stop-color="#559CEC"/>
+<stop offset="1" stop-color="#5EA0EF"/>
+</linearGradient>
+</defs>
+</svg>

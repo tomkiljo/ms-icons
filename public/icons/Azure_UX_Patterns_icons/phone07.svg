@@ -1,0 +1,15 @@
+<svg data-slug-id="phone07" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15.964 46C13.7838 46 12 44.2205 12 42.0455V5.95447C12 3.77951 13.7838 2 15.964 2H32.0378C34.2171 2 36 3.77859 36 5.95263V42.0455C36 44.2205 34.2171 46 32.0369 46H15.964Z" fill="url(#phone07_paint0_linear)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M25.7747 43.5612H22.2256C21.7347 43.5612 21.3364 43.1648 21.3364 42.6751C21.3364 42.1854 21.7347 41.7891 22.2256 41.7891H25.7747C26.2655 41.7891 26.6629 42.1854 26.6629 42.6751C26.6629 43.1648 26.2655 43.5612 25.7747 43.5612Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24.8892 5.32356C24.8892 5.81325 24.4938 6.2087 24.001 6.2087C23.513 6.2087 23.1138 5.81325 23.1138 5.32356C23.1138 4.8348 23.513 4.4375 24.001 4.4375C24.4938 4.4375 24.8892 4.8348 24.8892 5.32356Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M33.3697 39.3475H14.6304C14.1395 39.3475 13.7422 38.9511 13.7422 38.4614V9.53645C13.7422 9.04676 14.1395 8.65039 14.6304 8.65039H33.3697C33.8606 8.65039 34.2579 9.04676 34.2579 9.53645V38.4614C34.2579 38.9511 33.8606 39.3475 33.3697 39.3475Z" fill="white"/>
+<defs>
+<linearGradient id="phone07_paint0_linear" x1="31.6376" y1="49.9232" x2="5.13214" y2="25.8007" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0078D4"/>
+<stop offset="0.16" stop-color="#1380DA"/>
+<stop offset="0.53" stop-color="#3C91E5"/>
+<stop offset="0.82" stop-color="#559CEC"/>
+<stop offset="1" stop-color="#5EA0EF"/>
+</linearGradient>
+</defs>
+</svg>

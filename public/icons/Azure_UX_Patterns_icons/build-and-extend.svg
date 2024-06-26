@@ -1,0 +1,16 @@
+<svg data-slug-id="build-and-extend" viewBox="0 0 49 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.9384 6.479L7.9384 35.6913L46.0841 35.6913L46.0841 6.479L7.9384 6.479Z" fill="#50E6FF"/>
+<path d="M2.58257 12.3085L2.58256 41.5208L40.7283 41.5208L40.7283 12.3085L2.58257 12.3085Z" fill="url(#build-and-extend_paint0_linear)"/>
+<path d="M23.6307 25.5005H19.6793V29.4518H23.6307V25.5005Z" fill="white"/>
+<path d="M27.5819 21.5902L26.1888 22.9833L30.7 27.4945L26.1367 32.0577L27.5298 33.4508L33.4861 27.4945L27.5819 21.5902Z" fill="#50E6FF"/>
+<path d="M15.5977 33.4508L16.9973 32.0577L12.4861 27.5465L17.0494 22.9833L15.6563 21.5902L9.69348 27.5465L15.5977 33.4508Z" fill="#50E6FF"/>
+<defs>
+<linearGradient id="build-and-extend_paint0_linear" x1="21.6554" y1="43.7577" x2="11.8842" y2="8.70359" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0078D4"/>
+<stop offset="0.16" stop-color="#1380DA"/>
+<stop offset="0.53" stop-color="#3C91E5"/>
+<stop offset="0.82" stop-color="#559CEC"/>
+<stop offset="1" stop-color="#5EA0EF"/>
+</linearGradient>
+</defs>
+</svg>

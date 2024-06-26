@@ -1,0 +1,22 @@
+<svg data-slug-id="alert07" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+	<g clip-path="url(#alert07_6887a30e-7d21-416e-a7f0-13e716b406cf)">
+		<path d="M8.00002 16.3909C8.00002 7.33919 15.3392 0 24.3993 0C33.4594 0 40.7986 7.33919 40.7986 16.3909C40.7986 25.4425 33.4594 32.7817 24.3993 32.7817C15.3392 32.7817 8.00002 25.4425 8.00002 16.3909Z" fill="#0078D4"/>
+		<path d="M30.2341 26.4211H17.7406V38.9483H30.2341V26.4211Z" fill="#0078D4"/>
+		<path d="M30.2341 45.0981H17.7406V47.7132H30.2341V45.0981Z" fill="#50E6FF"/>
+		<path d="M30.2342 40.6875H17.7407V43.3026H30.2342V40.6875Z" fill="#50E6FF"/>
+		<circle cx="17.7143" cy="9.71429" r="2.71429" fill="#50E6FF"/>
+		<circle cx="24.5" cy="9.71429" r="2.71429" fill="#50E6FF"/>
+		<circle cx="31.2857" cy="9.71429" r="2.71429" fill="#50E6FF"/>
+		<circle cx="17.7143" cy="16.5" r="2.71429" fill="#50E6FF"/>
+		<circle cx="24.5" cy="16.5" r="2.71429" fill="#50E6FF"/>
+		<circle cx="31.2857" cy="16.5" r="2.71429" fill="#50E6FF"/>
+		<circle cx="17.7143" cy="23.2857" r="2.71429" fill="#50E6FF"/>
+		<circle cx="24.5" cy="23.2857" r="2.71429" fill="#50E6FF"/>
+		<circle cx="31.2857" cy="23.2857" r="2.71429" fill="#50E6FF"/>
+	</g>
+	<defs>
+		<clipPath id="alert07_6887a30e-7d21-416e-a7f0-13e716b406cf">
+			<rect width="48" height="48" fill="white"/>
+		</clipPath>
+	</defs>
+</svg>

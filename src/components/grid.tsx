@@ -1,20 +1,27 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { IconData } from "@/types";
-import Icon from "./icon";
+import { BackgroundColor, IconData, ImageFormat, ImageSize } from "@/types";
+import IconCard from "./icon-card";
+import ImageFormatSelect from "./image-format-select";
+import ImageSizeSelect from "./image-size-select";
+import BackgroundColorSelect from "./background-color-select";
 
 type GridProps = {
   icons: IconData[];
 };
 
-const defaultColor = "#ffffff";
+const defaultColor = BackgroundColor.Transparent;
+const defaultFormat = ImageFormat.SVG;
+const defaultSize = ImageSize["64"];
 
 export default function Grid({ icons }: GridProps) {
   const [filter, setFilter] = useState<string>("");
   const [filtered, setFiltered] = useState<IconData[]>(icons);
-  const [transparent, setTransparent] = useState<boolean>(true);
-  const [color, setColor] = useState<string>(defaultColor);
+  const [backgroundColor, setBackgroundColor] =
+    useState<BackgroundColor>(defaultColor);
+  const [format, setFormat] = useState<ImageFormat>(defaultFormat);
+  const [size, setSize] = useState<ImageSize>(defaultSize);
 
   useEffect(() => {
     const search = filter.toLowerCase().trim();
@@ -49,34 +56,29 @@ export default function Grid({ icons }: GridProps) {
             className="w-full p-2 border border-gray-300 rounded"
           />
         </div>
-        <div className="flex flex-row items-center gap-2 text-gray-500 text-sm">
-          <span>Preview background:</span>
-          <input
-            id="bgcolor"
-            name="bgcolor"
-            type="color"
-            defaultValue={defaultColor}
-            onBlur={(event) => setColor(event.target.value)}
+        <div className="flex flex-row flex-wrap gap-4 items-center">
+          <div className="text-gray-500 text-sm">Count: {filtered.length}</div>
+          <BackgroundColorSelect
+            defaultColor={defaultColor}
+            onChange={setBackgroundColor}
           />
-          <label htmlFor="bgcolor">Color</label>
-          <input
-            id="transparent"
-            name="transparent"
-            type="checkbox"
-            checked={transparent}
-            onChange={(event) => setTransparent(event.target.checked)}
+        </div>
+        <div className="flex flex-row flex-wrap gap-4 items-center">
+          <ImageFormatSelect
+            defaultFormat={defaultFormat}
+            onChange={setFormat}
           />
-          <label htmlFor="transparent">Transparent</label>
+          <ImageSizeSelect defaultSize={defaultSize} onChange={setSize} />
         </div>
       </div>
       <div className="grid grid-cols-auto gap-4">
         {filtered.map((icon) => (
-          <Icon
+          <IconCard
             key={icon.url}
             data={icon}
-            width={64}
-            height={64}
-            backgroundColor={!transparent ? color : undefined}
+            format={format}
+            size={size}
+            backgroundColor={backgroundColor}
           />
         ))}
       </div>

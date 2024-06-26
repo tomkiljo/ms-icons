@@ -26,7 +26,7 @@ function findSvgs(dir: string, fileList: string[] = []): string[] {
 const runAsync = async () => {
   const collections: IconCollection[] = [];
 
-  /// Azure architecture icons
+  /// Azure Architecture icons
 
   const azureRootPath = path.join(iconsRootPath, "Azure_Public_Service_Icons");
   const azureIconFiles = findSvgs(azureRootPath);
@@ -54,8 +54,44 @@ const runAsync = async () => {
     icons: azureIcons,
     documentation: [
       {
-        name: "Azure architecture icons",
+        name: "Azure Architecture icons",
         url: "https://learn.microsoft.com/en-us/azure/architecture/icons",
+      },
+    ],
+  });
+
+  /// Azure UX Patterns icons
+
+  const uxPatternsRootPath = path.join(
+    iconsRootPath,
+    "Azure_UX_Patterns_icons"
+  );
+
+  const uxPatternsIconFiles = findSvgs(uxPatternsRootPath);
+  const uxPatternsIcons = uxPatternsIconFiles.map((iconFile) => {
+    const iconCategory = "General";
+    const iconName = path
+      .basename(iconFile, ".svg")
+      .replaceAll(/[-_]/g, " ")
+      .replaceAll(/((?<![().,+-_])[A-Z0-9]+)/g, " $1") // add space before each uppercase letter
+      .replaceAll(/(\b[a-z](?!\s))/g, (x) => x.toUpperCase()) // capitalize first letter of each word
+      .trim();
+    const iconUrl = path.relative(publicRootPath, iconFile);
+    return {
+      collection: "Azure UX Patterns Icons",
+      category: iconCategory,
+      name: iconName,
+      url: iconUrl,
+    };
+  });
+
+  collections.push({
+    name: "Azure UX Patterns Icons",
+    icons: uxPatternsIcons,
+    documentation: [
+      {
+        name: "Azure UX Patterns Icons",
+        url: "https://azure.microsoft.com/en-gb/patterns/styles/glyphs-icons/",
       },
     ],
   });

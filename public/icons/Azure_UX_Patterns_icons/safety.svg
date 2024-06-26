@@ -1,0 +1,20 @@
+<svg data-slug-id="safety" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+<path d="M119 21H29V148H119V21Z" fill="url(#safety_paint0_linear)"/>
+<path d="M104 13H44V28H104V13Z" fill="url(#safety_paint1_linear)" fill-opacity="0.6"/>
+<path d="M110.853 48C98.291 55.2766 84.5754 60.4921 70 63.3943V135.844L110.664 168L152 135.95V63.3943C137.508 60.4921 123.688 55.2766 111.126 48H110.853Z" fill="url(#safety_paint2_linear)" fill-opacity="0.8"/>
+<path d="M129.054 87L104.336 112.013L96.9343 104.512L92 109.517L104.336 122L134 91.9933L129.054 87Z" fill="white"/>
+<defs>
+<linearGradient id="safety_paint0_linear" x1="50.9767" y1="58.9691" x2="43.2958" y2="210.244" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0078D4"/>
+<stop offset="1" stop-color="#0078D4" stop-opacity="0.2"/>
+</linearGradient>
+<linearGradient id="safety_paint1_linear" x1="37.0233" y1="2.77272" x2="132.597" y2="44.9387" gradientUnits="userSpaceOnUse">
+<stop stop-color="#50E6FF"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="safety_paint2_linear" x1="65.8655" y1="63.1724" x2="183.812" y2="176.417" gradientUnits="userSpaceOnUse">
+<stop stop-color="#50E6FF"/>
+<stop offset="1" stop-color="#D2F9FF"/>
+</linearGradient>
+</defs>
+</svg>

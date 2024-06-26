@@ -1,0 +1,18 @@
+<svg data-slug-id="scale15" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#scale15_clip0)">
+    <path d="M47.9883 35.3701V32.8682L0.00522995 32.8682V35.3701L47.9883 35.3701Z" fill="#50E6FF"/>
+    <path d="M35.3515 30.3252H25.2715V37.8984H35.3515V30.3252Z" fill="#0078D4"/>
+    <path d="M48.0001 41.7512H37.9033V44.1605H48.0001V41.7512Z" fill="#50E6FF"/>
+    <path d="M44.1562 48.0001V37.8997H41.7478V48.0001H44.1562Z" fill="#50E6FF"/>
+    <path d="M10.1056 41.7395H0.00878906V44.1488H10.1056V41.7395Z" fill="#50E6FF"/>
+    <path d="M10.1137 17.6919H0V25.2483H10.1137V17.6919Z" fill="#50E6FF"/>
+    <path d="M22.7457 12.6294H12.6152V25.2486H22.7457V12.6294Z" fill="#50E6FF"/>
+    <path d="M35.3681 7.67603H25.2544V25.2654H35.3681V7.67603Z" fill="#0078D4"/>
+    <path d="M48 0H37.8779V25.2468H48V0Z" fill="#50E6FF"/>
+  </g>
+  <defs>
+    <clipPath id="scale15_clip0">
+      <rect width="47.9999" height="48" fill="white"/>
+    </clipPath>
+  </defs>
+</svg>

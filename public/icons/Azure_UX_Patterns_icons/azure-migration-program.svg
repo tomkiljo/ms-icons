@@ -1,0 +1,26 @@
+<svg data-slug-id="azure-migration-program" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+<path d="M159.093 91.3555H158.694C160.368 87.0885 161.324 82.4627 161.324 77.5577C161.324 57.2599 145.267 40.7903 125.465 40.7903C121.282 40.7903 117.258 41.548 113.512 42.9437C103.671 30.4221 88.5707 22.4066 71.6773 22.4066C41.9944 22.4066 17.8895 47.091 17.8895 77.5577C17.8895 82.3431 18.5269 86.9689 19.6824 91.3953C8.76543 91.6745 0 100.767 0 112.012C0 123.417 9.04433 132.709 20.1605 132.709H159.093C170.249 132.709 179.253 123.457 179.253 112.012C179.253 100.607 170.249 91.3555 159.093 91.3555Z" fill="url(#azure-migration-program_paint0_linear)"/>
+<path d="M89.3981 83.3333H46.4318V95.7881H68.3755L14 149.974L22.7612 158.742L77.1366 104.556V126.495H89.6028V83.3333H89.3981Z" fill="#50E6FF" filter="url(#azure-migration-program_filter0_dd)"/>
+<defs>
+<filter id="azure-migration-program_filter0_dd" x="10" y="81.3333" width="83.6028" height="83.4084" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow" result="effect2_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="azure-migration-program_paint0_linear" x1="83.1285" y1="22.4066" x2="60.7218" y2="132.946" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5EA0EF"/>
+<stop offset="0.119792" stop-color="#559CEC"/>
+<stop offset="0.537753" stop-color="#1380DA"/>
+<stop offset="1" stop-color="#0078D4"/>
+</linearGradient>
+</defs>
+</svg>
