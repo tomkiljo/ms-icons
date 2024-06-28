@@ -26,3 +26,31 @@
 .grid-cols-auto {
   grid-template-columns: repeat(auto-fill, minmax(min(10rem, 100%), 1fr));
 }
+
+@layer utilities {
+  .animate-snackbar {
+    animation: fadein 0.5s, fadeout 0.5s 2.6s;
+  }
+
+  @keyframes fadein {
+    from {
+      bottom: 0;
+      opacity: 0;
+    }
+    to {
+      bottom: 2rem;
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeout {
+    from {
+      bottom: 2rem;
+      opacity: 1;
+    }
+    to {
+      bottom: 0;
+      opacity: 0;
+    }
+  }
+}

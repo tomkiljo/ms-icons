@@ -2,6 +2,8 @@
 
 import NextImage from "next/image";
 import { BackgroundColor, IconData, ImageFormat, ImageSize } from "@/types";
+import { dispatch } from "@/lib/events";
+import { copyToClipboard } from "@/lib/image-utils";
 
 type IconProps = {
   data: IconData;
@@ -16,15 +18,26 @@ export default function IconCard({
   size,
   backgroundColor,
 }: IconProps) {
+  const handleClick = () => {
+    copyToClipboard(data.url, format, size).then(() => {
+      dispatch(
+        "snackbar:message",
+        `Copied ${format.toUpperCase()} to clipboard.`
+      );
+    });
+  };
+
   return (
     <div className="flex flex-col self-start justify-center text-center">
       <div
+        role="button"
         className="bg-checkered p-4 mx-auto"
         style={
           backgroundColor !== BackgroundColor.Transparent
             ? { background: backgroundColor }
             : undefined
         }
+        onClick={handleClick}
       >
         <NextImage
           src={data.url}

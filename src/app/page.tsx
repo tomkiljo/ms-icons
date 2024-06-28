@@ -4,6 +4,7 @@ import type { IconCollection } from "@/types";
 
 import Grid from "@/components/grid";
 import ExternalLinkIcon from "@/icons/externallink";
+import Snackbar from "@/components/snackbar";
 
 async function loadCollections() {
   const data = await fs.readFile(
@@ -62,6 +63,7 @@ export default async function Home() {
         </div>
         <Grid icons={icons} />
       </div>
+      <Snackbar />
     </main>
   );
 }
