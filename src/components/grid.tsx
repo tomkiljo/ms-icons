@@ -6,6 +6,7 @@ import IconCard from "./icon-card";
 import ImageFormatSelect from "./image-format-select";
 import ImageSizeSelect from "./image-size-select";
 import BackgroundColorSelect from "./background-color-select";
+import Search from "./search";
 
 type GridProps = {
   icons: IconData[];
@@ -47,15 +48,7 @@ export default function Grid({ icons }: GridProps) {
   return (
     <div className="flex flex-col gap-16">
       <div className="flex flex-col gap-2">
-        <div>
-          <input
-            type="text"
-            value={filter ?? ""}
-            onChange={(event) => setFilter(event.target.value)}
-            placeholder="Filter icons..."
-            className="w-full p-2 border border-gray-300 rounded"
-          />
-        </div>
+        <Search onChange={setFilter} />
         <div className="flex flex-row flex-wrap gap-4 items-center">
           <div className="text-gray-500 text-sm">Count: {filtered.length}</div>
           <BackgroundColorSelect
