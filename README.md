@@ -2,7 +2,7 @@ The purpose of this repository is to showcase Microsoft architecture icon collec
 
 The following official collections are presented:
 
-- [Azure architecture icons](https://learn.microsoft.com/en-us/azure/architecture/icons) - February 2024
+- [Azure architecture icons](https://learn.microsoft.com/en-us/azure/architecture/icons) - March 2025
 - [Microsoft Entra architecture icons](https://learn.microsoft.com/en-us/entra/architecture/architecture-icons) - October 2023
 - [Microsoft Power Platform icons](https://learn.microsoft.com/en-us/power-platform/guidance/icons) - June 2022
 - [Microsoft Dynamics 365 icons](https://learn.microsoft.com/en-us/dynamics365/get-started/icon) - June 2021
