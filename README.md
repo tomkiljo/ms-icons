@@ -7,6 +7,7 @@ The following official collections are presented:
 - [Microsoft Power Platform icons](https://learn.microsoft.com/en-us/power-platform/guidance/icons) - June 2022
 - [Microsoft Dynamics 365 icons](https://learn.microsoft.com/en-us/dynamics365/get-started/icon) - June 2021
 - [Microsoft 365 architecture templates and icons](https://learn.microsoft.com/en-us/microsoft-365/solutions/architecture-icons-templates) - January 2024
+- [Microsoft Fabric icons](https://learn.microsoft.com/en-us/fabric/fundamentals/icons) - May 2025 (v2.0.4)
 
 Regarding icon usage refer to the collections websites for terms, do's, and dont's.
 

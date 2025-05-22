@@ -251,6 +251,46 @@ const runAsync = async () => {
     ],
   });
 
+  /// Microsoft Fabric icons
+
+  const microsoftFabricRootPath = path.join(
+    iconsRootPath,
+    "Microsoft_Fabric_icons"
+  );
+
+  const microsoftFabricIconFiles = findSvgs(microsoftFabricRootPath);
+  const microsoftFabricIcons = microsoftFabricIconFiles.map((iconFile) => {
+    const iconCategory = path
+      .basename(path.dirname(iconFile))
+      .replaceAll(/(\b[a-z](?!\s))/g, (x) => x.toUpperCase());
+    const iconName = path
+      .basename(iconFile, ".svg")
+      .replace(/^\d+-icon-service-/, "")
+      .replaceAll(/[-_]/g, " ")
+      .replaceAll(/((?<![().,+-_])[A-Z0-9]+)/g, " $1")
+      .trim();
+    const iconUrl = path.relative(publicRootPath, iconFile);
+    return {
+      collection: "Microsoft Fabric Icons",
+      category: iconCategory,
+      name: iconName,
+      url: iconUrl,
+    };
+  });
+
+  collections.push({
+    name: "Microsoft Fabric Icons",
+    icons: microsoftFabricIcons,
+    documentation: [
+      {
+        name: "Microsoft Fabric icons",
+        url: "https://learn.microsoft.com/en-us/fabric/fundamentals/icons",
+      },
+    ],
+  });
+
+  ///
+
   const indexJson = JSON.stringify(collections, null, 2);
   fs.writeFileSync(indexFile, indexJson, "utf-8");
 };
