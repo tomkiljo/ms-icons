@@ -265,9 +265,9 @@ const runAsync = async () => {
       .replaceAll(/(\b[a-z](?!\s))/g, (x) => x.toUpperCase());
     const iconName = path
       .basename(iconFile, ".svg")
-      .replace(/^\d+-icon-service-/, "")
+      .replaceAll(/(_\d{2}_)/g, " ") // remove _xx_ sizes
       .replaceAll(/[-_]/g, " ")
-      .replaceAll(/((?<![().,+-_])[A-Z0-9]+)/g, " $1")
+      .replaceAll(/(\b[a-z](?!\s))/g, (x) => x.toUpperCase()) // capitalize first letter of each word
       .trim();
     const iconUrl = path.relative(publicRootPath, iconFile);
     return {
